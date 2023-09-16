@@ -1,0 +1,33 @@
+curl 'https://golfburnaby.cps.golf/identityapi/connect/token' \
+  -H 'authority: golfburnaby.cps.golf' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'authorization: Bearer null' \
+  -H 'cache-control: no-cache, no-store, must-revalidate' \
+  -H 'client-id: onlineresweb' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'cookie: _ga=GA1.1.1850289970.1694452006; V4COOKIE=1694891179.38.579.540957|6f85d80bb17005296be42e6c730fbd0d; _ga_C86CSPQYBP=GS1.1.1694891180.4.1.1694891211.0.0.0' \
+  -H 'expires: Sat, 01 Jan 2000 00:00:00 GMT' \
+  -H 'if-modified-since: 0' \
+  -H 'origin: https://golfburnaby.cps.golf' \
+  -H 'pragma: no-cache' \
+  -H 'referer: https://golfburnaby.cps.golf/onlineresweb/auth/login' \
+  -H 'sec-ch-ua: "Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36' \
+  -H 'x-apikey: 8ea2914e-cac2-48a7-a3e5-e0f41350bf3a' \
+  -H 'x-componentid: 1' \
+  -H 'x-ismobile: false' \
+  -H 'x-productid: 1' \
+  -H 'x-requestid: e31fdab6-7e98-7fb7-ace6-fd75ef122d8f' \
+  -H 'x-siteid: 2' \
+  -H 'x-terminalid: 3' \
+  -H 'x-timezone-offset: 420' \
+  -H 'x-timezoneid: America/Vancouver' \
+  -H 'x-websiteid: 68ffa70d-4c31-4511-f6c6-08db3507e474' \
+  --data-raw 'grant_type=password&scope=openid%20profile%20onlinereservation%20sale%20inventory%20sh%20customer%20email%20recommend%20references&username=peter9207%40hotmail.com&password=12345&client_id=js1&client_secret=v4secret' \
+  --compressed
